@@ -1,0 +1,79 @@
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #CC0000;
+}
+
+nav {
+  font-size: 24px;
+}
+#title {
+  font-size: 48px;
+  font-weight: boler;
+  font-family: monospace;
+}
+
+#nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  color: #CC0000;
+  background-color: black;
+  opacity: 0.90;
+  font-family: monospace;
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: #CC0000;
+}
+
+label[for=email] {
+  color: #CC0000;
+}
+
+#submit {
+background: white;
+color: black;
+border-style: outset;
+border-color: white;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+text-align: center;
+}
+
+#your-email {
+  font-size: 16px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}

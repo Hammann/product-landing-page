@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/theme.css">
+
+      <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+
+    <title></title>
+  </head>
+  <body>
+    <header id="header">
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <img id="header-img" src="https://images.newscientist.com/wp-content/uploads/2020/01/27123401/f0070229-coronavirus_artwork-spl.jpg" alt="coronahub logo"></img>
+        <h1 id="title">Corona Virus Information Hub</h1>
+
+      <nav id="nav-bar">
+          <p><a href="#confirmed-cases" class="nav-link">Confirmed Cases</a></p>
+          <p><a href="#wash-your-hands" class="nav-link">How To Wash Your Hands</a></p>
+          <p><a href="#wear-a-mask" class="nav-link">Should I Wear A Mask?</a></p>
+          <br>
+          <br>
+
+      </nav>
+
+    </header>
+
+    <h1 id="confirmed-cases">Confirmed Cases</h1>
+
+      <div class="iframe-container">
+        <iframe src="https://coronavirus.jhu.edu/map.html" width="1200px" height="800px" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+
+    <h1 id="wash-your-hands">How to Wash Your Hands</h1>
+      <iframe id="video" width="1200px" height="800px" src="https://www.youtube.com/embed/seA1wbXUQTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <br>
+      <br>
+
+    <h1 id="wear-a-mask">Should I Wear A Mask?</h1>
+      <iframe width="1200px" height="800px" src="https://www.youtube.com/embed/ZVEB09kdyXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <br>
+      <br>
+
+    <div class="flex-container">
+    <div><h2>Sign up for our newsletter to get weekly updates delivered straight to your email!</h2></div>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <div><label id="your-email" for="email" required="true">Your Email:</label></div>
+      <br>
+      <br>
+      <div><input type="email" id="email" name="email" placeholder="Please enter your email ..." style="height:25px; width:250px"></div>
+      <br>
+      <br>
+      <div><input id="submit" type="submit" name="submit" value="Sign me up!"></div>
+      <br>
+      <br>
+    </form>
+    </div>
+    <script
+    type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
