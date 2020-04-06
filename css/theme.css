@@ -10,7 +10,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  font-family: monospace;
+  font-family: Arial Black;
 }
 
 h1 {
@@ -28,7 +28,7 @@ nav {
 #title {
   font-size: 48px;
   font-weight: boler;
-  font-family: monospace;
+  font-family: Arial Black;
 }
 
 #nav-bar {
@@ -40,7 +40,7 @@ nav {
   color: #CC0000;
   background-color: black;
   opacity: 0.90;
-  font-family: monospace;
+  font-family: Arial Black;
 }
 
 /* unvisited link */
